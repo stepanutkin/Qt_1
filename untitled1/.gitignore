@@ -1,0 +1,21 @@
+# Игнорировать временные файлы и каталоги созданные Qt Creator
+*~  
+*.swp  
+*.pro.user  
+*.pro.user.*  
+*.qbs.user  
+*.qbs.user.*  
+*.moc  
+*.moc_*
+*.qmlc  
+*-qmlc  
+*.jsc  
+*-jsc  
+
+# Build artifacts  
+build-*  
+*-build-*  
+
+# Игнорировать директории сборки
+build/  
+generated/  
